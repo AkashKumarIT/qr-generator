@@ -1,0 +1,80 @@
+:root{
+    --bcg-color: aqua;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #662D8C, #ED1E79);
+}
+
+.box{
+    background: linear-gradient(to right, #662D8C, #ED1E79);
+    padding: 30px;
+    width: 400px;
+    border-radius: 8px;
+}
+.box-header h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.box-header input{
+    width: 100%;
+    margin-block: 10px;
+}
+
+.box-header input, select{
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+    font-size: 15px;
+    border: 2px solid;
+}
+
+.box-header label{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.box-header div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.qr-footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.qr-footer a{
+    background-color:white;
+    padding: 5px;
+    margin-inline: 2px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+.qr-body{
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
